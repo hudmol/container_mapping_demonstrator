@@ -1,0 +1,43 @@
+
+.aspace_panel {
+    width: 400px;
+    float: left;
+}
+
+.yale_panel {
+    width: 600px;
+    float: right;
+    border-left: solid #eee 1px;
+    padding-left: 2em;
+}
+
+#top_container_form {
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#container_profile_form {
+    border-left: solid #eee 1px;
+    padding-left: 1em;
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#subcontainer_form {
+    width: 400px;
+}
+
+#canned_record_list {
+    padding-left: 1em;
+}
+
+#canned_record_list li {
+    margin: 10px;
+}
+
+.input-updated {
+    background-color: #D0DBD1;
+}
