@@ -406,7 +406,7 @@ canned_records = new CannedRecords();
 
 canned_records.add("Container with existing barcode",
                    new ASpaceContainer({
-                       'barcode_1' : '123'
+                       'barcode_1' : '12345'
                    }));
 
 canned_records.add("Container with a new barcode",
