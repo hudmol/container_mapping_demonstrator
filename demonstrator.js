@@ -687,4 +687,10 @@ handler.render_mapping_rules($('#mapping_rules'));
 
 $(function () {
     $('#series').val('series_' + Math.floor(Math.random() * 1000000));
+
+    // Disable the generated text fields
+    $('.yale_panel input[type=text]').focus(function() {
+        this.blur();
+    });
+
 });
